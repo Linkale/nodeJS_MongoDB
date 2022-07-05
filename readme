@@ -1,0 +1,20 @@
+Cours numéro 1 :
+- Découverte de MangoDB
+- Création d'un compte sur MongoDB Atlas.
+- Création d'un cluster sur MongoDB Atlas.
+- Connexion entre MongoDB Compass et le cluster précédèment créer.
+
+Cours numéro 2 :
+- Découverte de nodeJS.
+- Création du server et test de fonctionnalité.
+- Découverte et installation de Nodemon (commandes utiles : nodemon 'fichier js index' => permet de lancer le projet).
+Nodemon permet d'écouter et de mettre à jour les changements effectuer dans le code.
+- Découverte et installation de Express.
+Création de l'app via Express.
+Installation de Mongoose => package permettant la connexion à MongoDB
+Connexion à MongoDB via notre app.
+- Découverte des fonctionnalités d'Express.
+
+**Erreur rencontrée**
+Problème lors de la connexion à la bdd MongoDB: 
+l'url de connexion à la base de données n'était pas bonne.
