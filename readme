@@ -7,6 +7,11 @@ Cours numéro 1 :
 Cours numéro 2 :
 - Découverte de nodeJS.
 - Création du server et test de fonctionnalité.
+==> Pour les imports il est plus interessant aujourd'hui de le faire comme ceci :
+import * as express from 'express';
+Alors qu'avant cela s'écrivait ainsi :
+const express = require('express');
+
 - Découverte et installation de Nodemon (commandes utiles : nodemon 'fichier js index' => permet de lancer le projet).
 Nodemon permet d'écouter et de mettre à jour les changements effectuer dans le code.
 - Découverte et installation de Express.
@@ -14,7 +19,13 @@ Création de l'app via Express.
 Installation de Mongoose => package permettant la connexion à MongoDB
 Connexion à MongoDB via notre app.
 - Découverte des fonctionnalités d'Express.
+- Création d'un model "Dog" avec le schéma.
+- Création d'un fichier Router pour créer les routes de l'application.
+- Créatopn d'une route pour ajouter un "Dog".
 
-**Erreur rencontrée**
-Problème lors de la connexion à la bdd MongoDB: 
-l'url de connexion à la base de données n'était pas bonne.
+**Erreurs rencontrées**
+=>Problème : Lors de la connexion à la bdd MongoDB: 
+=> Solution : l'url de connexion à la base de données n'était pas bonne.
+
+=>Problème : Pendant la création de la route POST d'un "Dog" j'ai rencontré une erreur pour récupérer les datas du body.
+=> Solution : j'ai rajouté un middleware, provenant de Express, permettant de convertir le json qu'on lui envoie en data lisible.
