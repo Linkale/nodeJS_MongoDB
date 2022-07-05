@@ -7,6 +7,12 @@ const mongoose = require('mongoose');
 
 const mongodb = 'mongodb+srv://Landry:Toshiba60600@cluster0.zpaau.mongodb.net/test';
 
+const swaggerUi = require('swagger-ui-express');
+const swaggerDocument = require('./swagger.json');
+
+router.use('/api-docs', swaggerUi.serve);
+router.get('/api-docs', swaggerUi.setup(swaggerDocument));
+
 mongoose.connect(mongodb);
 
 const database = mongoose.connection;

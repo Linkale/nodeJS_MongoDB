@@ -21,7 +21,8 @@ Connexion à MongoDB via notre app.
 - Découverte des fonctionnalités d'Express.
 - Création d'un model "Dog" avec le schéma.
 - Création d'un fichier Router pour créer les routes de l'application.
-- Créatopn d'une route pour ajouter un "Dog".
+- Création d'une route pour ajouter un "Dog".
+- Installation de Swagger-ui-express pour voir et explorer les différentes routes
 
 **Erreurs rencontrées**
 =>Problème : Lors de la connexion à la bdd MongoDB: 
