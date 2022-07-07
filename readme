@@ -24,6 +24,14 @@ Connexion à MongoDB via notre app.
 - Création d'une route pour ajouter un "Dog".
 - Installation de Swagger-ui-express pour voir et explorer les différentes routes
 
+Cours numéro 3 :
+- Découverte et installation de DotEnv.
+- Travail sur Zoo api.
+
+Cours numéro 4 :
+- Découverte et mise en place de JWT.
+- Travail sur Zoo api.
+
 **Erreurs rencontrées**
 =>Problème : Lors de la connexion à la bdd MongoDB: 
 => Solution : l'url de connexion à la base de données n'était pas bonne.

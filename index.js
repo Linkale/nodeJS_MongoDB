@@ -1,11 +1,11 @@
 const express = require('express');
-const port = 3001;
+const port = process.env.PORT;
 const app = express();
 const router = require('./routes');
 
 const mongoose = require('mongoose');
 
-const mongodb = 'mongodb+srv://Landry:Toshiba60600@cluster0.zpaau.mongodb.net/test';
+const mongodb = process.env.DATABASE_URL;
 
 const swaggerUi = require('swagger-ui-express');
 const swaggerDocument = require('./swagger.json');
